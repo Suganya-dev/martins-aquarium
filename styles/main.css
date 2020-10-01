@@ -1,0 +1,27 @@
+
+@import "./fishlist.css";
+#container{
+    border: 2px solid black;
+   
+}
+.container_left{
+    border: 2px dotted black;
+    width: 70%;
+    height: 70;
+    display: flex;
+    flex: 3;
+}
+
+.fishtank{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fish1,.fish2,.fish3 {
+    
+    border: 1px dashed rgb(160, 3, 3);
+    flex-basis: 20%;
+    
+}
+section,article,aside{
+    border: 1px dashed black;
+}
