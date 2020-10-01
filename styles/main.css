@@ -6,10 +6,11 @@
 }
 .container_left{
     border: 2px dotted black;
-    width: 70%;
+    width: 50%;
     height: 70;
     display: flex;
-    flex: 3;
+    flex: 5;
+    background-color: cadetblue;
 }
 
 .fishtank{
@@ -19,9 +20,29 @@
 .fish1,.fish2,.fish3 {
     
     border: 1px dashed rgb(160, 3, 3);
-    flex-basis: 20%;
+    flex-basis: 30%;
     
 }
-section,article,aside{
+aside{
     border: 1px dashed black;
+}
+.travel{
+    border: 2px dotted black;
+    width: 50%;
+    height: 70;
+    background-color:olivedrab;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 4;
+  
+}
+.quote , .quote1{
+    border: 1px dashed rgb(160, 3, 3);
+  flex-basis: 50%;
+
+}
+.travel__locations{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px dashed rgb(160, 3, 3);
 }
