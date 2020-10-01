@@ -26,14 +26,7 @@
 
 
  
-.location , .location1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 30%;
-    border: 1px dashed rgb(160, 3, 3);
-    width: 50%;
-    background-color: palevioletred;
-}
+
 .container__right{
     border: 1px dashed black;
     
@@ -50,6 +43,7 @@
  }
  .left_container{
     border: 2px solid blueviolet;
+    border-radius: 1em;
     width: 75%;
    padding: 10px;
  }
@@ -58,22 +52,27 @@
      flex-basis: 25%;
      flex: 3;
      border: 1px dashed rgb(160, 3, 3);
+     border-radius: 1em;
  }
  .fish1, .fish2, .fish3{
     display: flex;
     flex-basis: 35%;
     border: 1px dashed rgb(78, 20, 185);
+    border-radius: 1em;
     width: 65%;
+    length: 60%;
     background-color: cadetblue;
     font-size: larger;
     font-weight: bold;
  }
  .right_container{
     border: 2px solid blue;
+    border-radius: 1em;
    padding: 10px;
  }
  .container__right{
     border: 1px dashed rgb(78, 20, 185);
+    border-radius: 1em;
     padding: 10px;
     width: 85%;
     length: 75%;
@@ -90,20 +89,44 @@
  .tips__water, .tips__tank {
      list-style-type: circle;
  }
- .travel_quotes{
-
+ .travel{
+      border: 2px dotted black;
+      border-radius: 2em;
     display:flex;
     flex-wrap: nowrap;
-    width: 50%;
-    height: 70;
+    width: 90%;
+    height: 70%;
     background-color:olivedrab;
    
     }
 .quote , .quote1{
     border: 1px dashed rgb(160, 3, 3);
+    border-radius: 2em;
     width: 100%;
+    display:flex;
+    flex-wrap: nowrap;
     background-color:olivedrab;
+    font-style: normal;
+    font-size: larger;
 }
- 
+.location , .location1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%; 
+    flex:1;
+   background-color: palevioletred;
+    font-weight: bold;
+    font-size: larger;
+}
 
+ 
+.travel__locations{
+    display:flex;
+    flex-wrap: wrap;
+    border: 1px dashed rgb(160, 3, 3);
+    width: 60%;
+    border-radius: 2em;
+  
+
+}
   
