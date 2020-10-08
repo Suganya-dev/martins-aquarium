@@ -5,7 +5,7 @@ export const FishList = () => {
 
     const fishes = useFish()
 
-    let fishHTMLRepresentations="fishCollection"
+    let fishHTMLRepresentations=""
     for (const fish of fishes) {
         fishHTMLRepresentations += Fish(fish)
         // console.log(fish)
