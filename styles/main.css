@@ -1,5 +1,5 @@
 
-@import "./fishlist.css";
+
 .container{
     border: 2px solid black;
     display: flex;
@@ -37,7 +37,7 @@
  .main_container{
      border: 2px solid red;
      display: flex;
-     flex-wrap: nowrap;
+     flex-wrap: wrap;
      padding: 10px;
      background-color: burlywood;
 
