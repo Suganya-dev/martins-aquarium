@@ -18,7 +18,7 @@ const fishCollection = [
        },
        {
         Name:"Captain",
-        Image:"https://scx2.b-cdn.net/gfx/news/hires/2014/fishfromacid.jpg"
+        Image:"https://scx2.b-cdn.net/gfx/news/hires/2014/fishfromacid.jpg",
         Species:"Centropomidae",
         length:"70-80cm",
         Diet: "molluscs and stomatopods.",
@@ -26,7 +26,7 @@ const fishCollection = [
        },
        {
         Name:"Molly Fish",
-        Image:"https://oceana.org/sites/default/files/shutterstock_430721545_1.jpg"
+        Image:"https://oceana.org/sites/default/files/shutterstock_430721545_1.jpg",
         Species:"Pomacanthus angelfish",
         length:"50-80 cm",
         Diet: "feed on small zooplankton from the water column, such as copepods and tunicate larvae,algae",
