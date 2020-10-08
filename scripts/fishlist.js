@@ -1,11 +1,11 @@
 import { Fish } from './fish.js'
-import { useFish } from './FishDataProvider.js'
+import { useFish } from './fishdataprovider.js'
 export const FishList = () => {
-    const contentElement = document.querySelector(".container_left")
+    const contentElement = document.querySelector(".left_container")
 
     const fishes = useFish()
 
-    let fishHTMLRepresentations="fishCollection"
+    let fishHTMLRepresentations=""
     for (const fish of fishes) {
         fishHTMLRepresentations += Fish(fish)
         // console.log(fish)
@@ -14,8 +14,9 @@ export const FishList = () => {
     contentElement.innerHTML += `
     <section class="fishlist">
     <h2><b>fish list</b></h2>
-    <div class="fishcontainer">
+    <div class="fishlist_fishtank">
     ${fishHTMLRepresentations}
 </div>
-</section>`
+</section>
+`
 }
