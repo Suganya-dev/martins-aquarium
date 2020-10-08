@@ -14,7 +14,7 @@ export const FishList = () => {
     contentElement.innerHTML += `
     <section class="fishlist">
     <h2><b>fish list</b></h2>
-    <div class="fishcontainer">
+    <div class="fishlist_fishtank">
     ${fishHTMLRepresentations}
 </div>
 </section>`
