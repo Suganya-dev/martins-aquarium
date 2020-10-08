@@ -37,6 +37,7 @@ const fishCollection = [
         return fishCollection.slice()
 
     }
-    export const addFish =(fishObject) => {
-        fishCollection.push(fishObject)
-    }
+
+    // export const addFish =(fishObject) => {
+    //     fishCollection.push(fishObject)
+    // }

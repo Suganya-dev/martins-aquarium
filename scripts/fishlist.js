@@ -17,5 +17,6 @@ export const FishList = () => {
     <div class="fishlist_fishtank">
     ${fishHTMLRepresentations}
 </div>
-</section>`
+</section>
+`
 }
