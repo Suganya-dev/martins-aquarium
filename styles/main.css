@@ -3,13 +3,14 @@
 .container{
     border: 2px solid black;
     display: flex;
+    flex-wrap: wrap;
     }
 .container_left{
     border: 2px dotted black;
     width: 50%;
     height: 70;
-    
-    flex: 5;
+     flex: 5;
+     flex-wrap: wrap;
     background-color: cadetblue;
 }
 
@@ -21,6 +22,7 @@
     
     border: 1px dashed rgb(160, 3, 3);
     flex-basis: 30%; 
+    flex-wrap: wrap;
     
 }
 

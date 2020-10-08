@@ -5,7 +5,7 @@ export const FishList = () => {
 
     const fishes = useFish()
 
-    let fishHTMLRepresentations="fishCollection"
+    let fishHTMLRepresentations=" "
     for (const fish of fishes) {
         fishHTMLRepresentations += Fish(fish)
         // console.log(fish)
@@ -14,7 +14,7 @@ export const FishList = () => {
     contentElement.innerHTML += `
     <section class="fishlist">
     <h2><b>fish list</b></h2>
-    <div class="fishcontainer">
+    <div class="fishlist_fishtank">
     ${fishHTMLRepresentations}
 </div>
 </section>`
