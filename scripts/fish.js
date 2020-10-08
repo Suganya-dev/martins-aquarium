@@ -4,6 +4,8 @@ export const Fish = (fish) => {
     <section class="fishlist">
                     <h2><b>fish list</b></h2>
                     <section class="fishlist_fishtank">
+                    <p>Name:</p>
+                    <p class="fish
                         
                         </section>
                         
