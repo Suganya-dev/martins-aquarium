@@ -1,7 +1,7 @@
 const fishCollection = [
     
     {
-        Name:"Clown Fish",
+        name:"Clown Fish",
         image:"https://s4.thingpic.com/images/95/3V3RY19FsatfjyLWRDYjxgZH.jpeg",
         Species:"Actinopterygii",
         length:"7-8cm",
@@ -9,7 +9,7 @@ const fishCollection = [
         location:"Southeast Asia, Japan, and the Indo-Malaysian region",
        },
        {
-        Name:"Jack",
+        name:"Jack",
         image:"https://i0.wp.com/oceanbites.org/wp-content/uploads/2016/02/clown-fish-300x225.jpg?resize=300%2C225",
         Species:"Carangidae",
         length:"100 cm",
@@ -17,7 +17,7 @@ const fishCollection = [
         location:"beaches, seagrass beds, shallow reef complexes and lagoons.",
        },
        {
-        Name:"Captain",
+        name:"Captain",
         image:"https://scx2.b-cdn.net/gfx/news/hires/2014/fishfromacid.jpg",
         Species:"Centropomidae",
         length:"70-80cm",
@@ -25,7 +25,7 @@ const fishCollection = [
         location:"western Atlantic,Africa and the Indo-Malaysian region",
        },
        {
-        Name:"Molly Fish",
+        name:"Molly Fish",
         image:"https://oceana.org/sites/default/files/shutterstock_430721545_1.jpg",
         Species:"Pomacanthus angelfish",
         length:"50-80 cm",
