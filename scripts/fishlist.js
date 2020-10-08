@@ -1,7 +1,7 @@
 import { Fish } from './fish.js'
 import { useFish } from './FishDataProvider.js'
 export const FishList = () => {
-    const contentElement = document.querySelector(".container_left")
+    const contentElement = document.querySelector(".left_container")
 
     const fishes = useFish()
 
