@@ -39,7 +39,7 @@
  .main_container{
      border: 2px solid red;
      display: flex;
-     flex-wrap: wrap;
+     flex-wrap: nowrap;
      padding: 10px;
      background-color: burlywood;
 
@@ -68,16 +68,17 @@
     border: 1px dashed rgb(78, 20, 185);
     border-radius: 1em;
     width: 65%;
-    length: 60%;
+    height: 60%;
     background-color: cadetblue;
     font-size: larger;
     font-weight: bold;
  }
- .right_container{
+ /* .right_container{
     border: 2px solid blue;
     border-radius: 1em;
    padding: 10px;
- }
+ 
+ } */
  .container__right{
     border: 1px dashed rgb(78, 20, 185);
     border-radius: 1em;
