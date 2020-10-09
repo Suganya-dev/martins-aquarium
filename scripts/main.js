@@ -7,3 +7,10 @@ const allTheFish = useFish()
 //     console.log(fish)
 // } 
 FishList()
+
+import {useTips} from './TipDataProvider.js'
+const alltheTips = useTips()
+for (const tips of alltheTips){
+    console.log(tips)
+}
+    
