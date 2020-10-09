@@ -1,6 +1,6 @@
 const tipscollection=[
     {
-      Topic: "Water tips",
+      Topic = "Watertips",
      text = "Clean the water once in 2 weeks",
      text = "Check the Water salinity",
      text = "Check the Water temperature",
