@@ -2,7 +2,7 @@
 import { Tips } from './Tip.js'
 import { useTips } from './TipDataProvider.js'
 
-export const tiplist = () => {
+export const TipList = () => {
     const contentElement = document.querySelector(".right_container")
     const fishtips = useTips()
 
@@ -13,7 +13,7 @@ for(const tip of fishtips){
 contentElement.innerHTML += `
 <section class="right_container">
 <h2> <b>useful tips</b> </h2>
-<div class="container__right">
+<aside class="container__right">
 ${TipsHTMLreprenstation}             
-</div>`
+</aside>`
 }
