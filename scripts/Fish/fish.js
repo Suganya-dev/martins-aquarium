@@ -4,16 +4,11 @@ export const Fish = (fishObj) => {
         <div class="fish1">	  
         <p> image:</p>	                    
         <img class="fish1__image" src="${fishObj.image}"	 alt=""  width="200" height="200">	  
-        <p>Name:</p>	                   
-        <p class="fish1__name"> ${fishObj.name}</p>	                   
-         <p>Species:</p>	
-        <pclass="fish1__species">${fishObj.Species}</p>	
-        <p>Length:</p>	
-        <pclass="fish1__length">${fishObj.length}</p>	
-        <p>Location:</p>	
-        <pclass="fish1__location"> ${fishObj.location}</p>	
-         p>Diet:</p>	
-        <p class="fish1__diet"> ${fishObj.diet}</p>	
+        <p class="fish1__name">Name: ${fishObj.name}</p>	                   
+        <pclass="fish1__species">Species:${fishObj.Species}</p>	
+        <pclass="fish1__length">Length:${fishObj.length}</p>	
+        <pclass="fish1__location">Location: ${fishObj.location}</p>	
+        <p class="fish1__diet">Diet: ${fishObj.diet}</p>	
        </div>
        `
     } 
