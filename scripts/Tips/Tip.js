@@ -14,7 +14,7 @@ export const Tips = (TipsObj) => {
 export const Quotes =(quoteObj) => {
     return `
     <div class= "Quote1">
-    <p class="Quote1__quote"> Quote: ${quoteObj.quote1}</p>
+    <p class="Quote1__quote"> <b> <i>Quote: ${quoteObj.quote1} </i></b></p>
     <p class="Quote1__author"> Author: ${quoteObj.author1}</p>
     <p class="Quote1__country"> Country: ${quoteObj.country1}</p>
 

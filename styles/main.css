@@ -49,7 +49,8 @@
  h1,h2 {
      text-align: center;
      text-transform: uppercase;
-     font-size: 50px;
+     font-size: 40px;
+     color: indianred;
  }
  .fishlist_fishtank{
      display: flex;
@@ -89,7 +90,7 @@
     background-color: cyan;
     font-size: 25px;
     font-weight: bold;
-    font-style: italic;
+    /* font-style: italic; */
     display: flex;
     flex-wrap: wrap;
     flex-basis: 25%;
@@ -102,31 +103,10 @@
      font-weight: 200;
  }
 
- .travel_quotes{
-      border: 2px dotted black;
-      /* margin-left: 5%;
-      margin-right: 5%; */
-      border-radius: 2em;
-    display:flex;
-    flex-wrap: nowrap;
-    width: 90%;
-    height: 70%;
-    background-color: rgb(97, 97, 79);
-   
-    }
-.quote , .quote1{
-    border: 1px dashed rgb(160, 3, 3);
-    border-radius: 2em;
-    width: 70%;
-    /* display:flex;
-    flex-wrap: nowrap; */
-    background-color: rgb(160, 160, 5);
-    font-size: 30px;
-    font-weight: bold;
-    font-style: italic;
-}
- .travel__locations{
-    /* border: 2px solid skyblue; */
+ 
+
+ .travel__locations {
+    
     background-color: teal;
     display:flex;
     flex-wrap: nowrap;
@@ -135,12 +115,20 @@
     font-size: 35px;
    font-weight: bold;
    font-style: italic;
+   padding-left: 30px;
   }
-   .location,.location1,.location2,.location3 {
+   /* .location,.location1,.location2,.location3 {
     border: 2px dashed black;
 
-   }
-   /* .right_container{
-       display: flex;
-       flex-wrap: wrap;
    } */
+   .quotes{
+    border-radius: 2em;
+    margin-left: 10px;
+    font-size: 25px;
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    background-color: cyan;
+    padding-left: 10px;
+
+   }
+  

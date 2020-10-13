@@ -4,7 +4,7 @@ export const Location =(travel) => {
     <p > Name: </p>
     <p class="travel__name">${travel.name1}</p>
     <p> Image </p>
-    <img class="travel__image" src ="${travel.image1}" alt="" width="300" height="350" >
+    <img class="travel__image" src ="${travel.image1}" alt="" width="190" height="250" >
    </div> 
     `
 }
