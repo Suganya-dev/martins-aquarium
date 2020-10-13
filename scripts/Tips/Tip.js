@@ -10,6 +10,16 @@ export const Tips = (TipsObj) => {
     </ol>
     `
 }
+
+export const Quotes =(quoteObj) => {
+    return `
+    <div class= "Quote1">
+    <p class="Quote1__quote> Quote: ${quoteObj.quote1}</p>
+    <p class="Quote1__quote> Author: ${quoteObj.author1}</p>
+    </div>
+    `
+}
+
     
     
     

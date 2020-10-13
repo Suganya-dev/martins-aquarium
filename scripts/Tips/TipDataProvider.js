@@ -18,3 +18,21 @@ const tipscollection=[
 export const useTips =() => {
     return tipscollection.slice()
 }
+
+
+const quotesCollection =[
+    {
+     quote1: "Many men go fishing all of their lives without knowing that it is not fish they are after,",
+     author1:  "Henry David Thoreau",
+     country1: "Paris"
+    },
+    {
+    quote1: "If people concentrated on the really important things in life, there’d be a shortage of fishing poles,",
+    author1: "Doug Larson.",
+    country1: "Puertorico"
+    }
+]
+
+export const useQuotes = () => {
+    return quotesCollection.slice()
+}
