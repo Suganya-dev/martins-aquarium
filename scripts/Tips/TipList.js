@@ -33,11 +33,9 @@ export const Qcollect =() => {
  
    contentElement.innerHTML += `
    <aside class="right_container">
+   <h2> Travel Quotes</h2> 
     <div class="quotes">
-
-     <h2> Travel Quotes</h2> 
-    ${quotesHTMLrepresentation}
-
-   </div>
+ ${quotesHTMLrepresentation}
+</div>
 </aside>
 ` }
