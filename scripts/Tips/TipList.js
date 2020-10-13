@@ -1,6 +1,8 @@
 
 import { Tips } from './Tip.js'
 import { useTips } from './TipDataProvider.js'
+import {useQuotes} from "./Tips/TipDataProvider.js"
+import {Quotes} from "./Tip/Tip.js"
 
 export const TipList = () => {
     const contentElement = document.querySelector(".right_container")
@@ -17,3 +19,25 @@ contentElement.innerHTML += `
 ${TipsHTMLreprenstation}             
 </aside>`
 }
+
+
+
+export const Qcollect =() => {
+   const  contentElement = document.querySelector(".quotes")
+   const fishQuotes = useQuotes()
+
+   let quotesHTMLrepresentation =""
+   for(const quotes of  fishQuotes){
+    quotesHTMLrepresentation +=  Quotes(quotes)
+   }
+ 
+   contentElement.innerHTML += `
+   <aside class="right_container">
+    <div class="quotes">
+
+    <!-- <h2> Travel Quotes</h2> -->
+    ${quotesHTMLrepresentation}
+
+   </div>
+</aside>
+` }

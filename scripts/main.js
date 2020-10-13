@@ -7,14 +7,9 @@ import {LocationList} from './Location/LocationList.js'
 FishList()
 TipList()
 LocationList()
+Qcollect()
 
-// import {useTips} from './Tips/TipDataProvider.js'
 
-// const alltheTips = useTips()
-// for (const tips of alltheTips){
-//     console.log(tips)
-// }
-   
 
 
 
