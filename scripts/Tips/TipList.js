@@ -1,8 +1,8 @@
 
 import { Tips } from './Tip.js'
 import { useTips } from './TipDataProvider.js'
-import {useQuotes} from "./Tips/TipDataProvider.js"
-import {Quotes} from "./Tip/Tip.js"
+import {useQuotes} from './TipDataProvider.js'
+import {Quotes} from './Tip.js'
 
 export const TipList = () => {
     const contentElement = document.querySelector(".right_container")
@@ -35,7 +35,7 @@ export const Qcollect =() => {
    <aside class="right_container">
     <div class="quotes">
 
-    <!-- <h2> Travel Quotes</h2> -->
+     <h2> Travel Quotes</h2> 
     ${quotesHTMLrepresentation}
 
    </div>
